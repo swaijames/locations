@@ -22,9 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+%h-eu-hmx)m#l3xmqjdbo7hibh)5xvf#u_t!b86p5e=^+1(-8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'locations-xvbd.onrender.com'
+    '.onrender.com',
+
+]
 
 # Application definition
 
@@ -131,5 +135,3 @@ CORS_ALLOWED_ORIGINS = [
     # Add other allowed origins as needed
 
 ]
-
-
