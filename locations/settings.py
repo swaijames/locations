@@ -127,6 +127,7 @@ CORS_ALLOW_ALL_ORIGINS = True  # For development only (not production)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Your frontend URL
     "http://127.0.0.1:3000",
+    "https://locations-xvbd.onrender.com"
     # Add other allowed origins as needed
 
 ]
