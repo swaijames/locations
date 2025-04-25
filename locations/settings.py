@@ -26,7 +26,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'locations-xvbd.onrender.com'
-    '.onrender.com',
+
 
 ]
 
